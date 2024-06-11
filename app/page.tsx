@@ -45,7 +45,7 @@ export default function Home() {
                     combines a textile-wrapped midsole and vacuum-sealed accents
                     to boost its street cred. Point-loaded Nike Air
                     cushioning—revamped from the incredibly plush Air Max
-                    270—delivers the comfort you've come to trust. Throw them on
+                    270—delivers the comfort you have come to trust. Throw them on
                     with your best outfit and go to the max.
                   </p>
                   <div className="flex space-x-4">
