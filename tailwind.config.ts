@@ -8,13 +8,25 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      colors: {
+        darkGreen: 'var(--darkGreen)',
+        lightGreen: 'var(--lightGreen)',
+      },
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        "gradient-background": "var(--gradient-background)",
+        'gradient-sidebar': 'linear-gradient(to bottom, #436568 10%, #01050F 92%)',
+      },
+       fontFamily: {
+        'barlow': ['Barlow', 'sans-serif'],
+      },
+      spacing: {
+        '1': '0.1em',
+        '2': '0.5rem',
+        // Add as many as you need
       },
     },
   },
   plugins: [],
 };
+
 export default config;

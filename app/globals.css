@@ -2,10 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 :root {
-color:black;
+  --darkGreen: rgba(25, 31, 32, 0.9); /* Adjust the alpha value (0.7) to reduce the opacity */
+  --lightGreen: rgba(17, 178, 189, 1); /* Adjust the alpha value (0.3) to make it lighter */
+  --gradient-background: radial-gradient(circle at 160% 90%, var(--darkGreen) 36%, var(--lightGreen) 100%);
 }
 
 body {
+  font-family: 'Barlow', sans-serif;
   color:black;
 }
