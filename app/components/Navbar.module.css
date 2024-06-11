@@ -1,0 +1,5 @@
+.uppercase {
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-top: 5em;
+}
