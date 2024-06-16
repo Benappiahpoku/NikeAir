@@ -45,14 +45,14 @@ export default function Home() {
                     combines a textile-wrapped midsole and vacuum-sealed accents
                     to boost its street cred. Point-loaded Nike Air
                     cushioning—revamped from the incredibly plush Air Max
-                    270—delivers the comfort you've come to trust. Throw them on
-                    with your best outfit and go to the max.
+                    270—delivers the comfort you&apos;ve come to trust. Throw
+                    them on with your best outfit and go to the max.
                   </p>
                   <div className="flex space-x-4">
                     <button className="bg-[#01050F] text-white px-4 py-2 rounded-full">
                       Add to cart
                     </button>
-                    <button className= "text-black  border-4 px-4 py-2 rounded-full">
+                    <button className="text-black  border-4 px-4 py-2 rounded-full">
                       Favorite
                     </button>
                   </div>
