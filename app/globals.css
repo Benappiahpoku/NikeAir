@@ -13,6 +13,7 @@
 body {
   font-family: 'Barlow', sans-serif;
   color:black;
-  background-color: #285255
+  background: var(--gradient-background)
+
 }
 
